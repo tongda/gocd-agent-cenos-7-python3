@@ -1,4 +1,4 @@
-FROM gocd/gocd-agent-centos-7
+FROM gocd/gocd-agent-centos-7:v17.3.0
 
 RUN yum -y groupinstall development && \
     yum -y install https://centos7.iuscommunity.org/ius-release.rpm && \
